@@ -1,0 +1,22 @@
+parameters:
+  public_net_id: 86b0188e-7b52-4c25-b1b9-902de4b9ebde
+  public_net_name: provider
+  mgmt_net_name: stcv_mgmt_net
+  mgmt_net_cidr: 20.20.1.0/24
+  mgmt_net_gw: 20.20.1.1
+  mgmt_net_pool_start: 20.20.1.100
+  mgmt_net_pool_end: 20.20.1.200
+  net_2_name: stcv_net_2
+  net_2_cidr: 30.30.1.0/24
+  net_2_gw: 30.30.1.1
+  net_2_pool_start: 30.30.1.100
+  net_2_pool_end: 30.30.1.200
+  stcv_1_image: STCv4.79
+  stcv_2_image: STCv4.79
+  labserver_image: STCv_LabServer4.79
+  stcv_1_flavor: m1.small
+  stcv_2_flavor: m1.small
+  labserver_flavor: m1.small
+  host_aggregate_name: my_host_aggregate
+  availability_zone_name: nova
+  hosts: compute1
