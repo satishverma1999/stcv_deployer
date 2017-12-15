@@ -1,7 +1,6 @@
 # stcv_deployer
 Multiple Spirent STCv deployer HEAT template
-STCv deployer Heat template
-===========================
+============================================
 STCv deployer package is a collection of 2 heat templates (also called as HOT files) as defined in the OpenStack HOT specification.
 For detailed information about the Heat Orchestration Templates, see the OpenStack Template Guide at http://docs.openstack.org/developer/heat/template_guide/
 This package consists of following files:
@@ -32,6 +31,7 @@ Using Horizon:
 6. Use the floating IPs to connect to these instances.
 
 Using Openstack CLI:
+===================
 1. Go to controller node and run the credential file of specific tenent to login using openstack client.
 2. Run the following command to deploy the template:
    controller$ heat stack-create stack_name --template-file <PathOfHeatTemplateFile> -e <PathOfHeatTemplateParamFile>  
