@@ -1,4 +1,4 @@
-# stcv_deployer
+# stcv_deployment template
 Multiple Spirent STCv deployer HEAT template
 ============================================
 STCv deployer package is a collection of 2 heat templates (also called as HOT files) as defined in the OpenStack HOT specification.
