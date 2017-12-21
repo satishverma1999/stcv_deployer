@@ -37,3 +37,4 @@ Using Openstack CLI:
    controller$ heat stack-create stack_name --template-file <PathOfHeatTemplateFile> -e <PathOfHeatTemplateParamFile>  
 3. Check the status of delployed stack.
    controller$ heat stack-list
+Note: Please contact satish.verma@spirent.com for any updations required.
